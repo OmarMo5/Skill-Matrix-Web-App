@@ -1,0 +1,71 @@
+header {
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    width: 120px;
+}
+.table {
+    font-family: "Fira Sans", sans-serif;
+    border-collapse: collapse;
+    margin-top: 5px ;
+    margin-left:50px ;
+    margin-right: 90px;
+}
+
+.table th {
+    text-align: left;
+    border-top: 2px solid #fc6600;
+    border-bottom: 2px solid #fc6600 ;
+}
+.table #row2 th{
+    font-style: oblique;text-align: center;font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+form.example button:hover {
+    background: #0b7dda;
+}
+.table td,
+.search-input {
+    font-size: 1em;
+    padding: 0.6em 1em;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-family: "Fira Sans", sans-serif;
+    background-color: azure;
+}
+body {
+    background-color: antiquewhite;
+
+}
+.insearch
+{
+    background-color: #009578;
+}
