@@ -1,0 +1,26 @@
+body{
+	background-image: url(../images/backgroundphoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Work Sans', sans-serif;
+}
+#update h2{
+    color:#E4123f;margin-bottom:50px;margin-top: 5%;margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: oblique;
+}
+#update div{margin-bottom:30px;}
+#update div input{border:2px solid gray;border-radius:15px;padding:10px;width:230px;}
+#update #row1 input{margin-left:75px;color: black;}
+#update #row2 input{margin-left:75px;color: black;}
+#update #row3 input{margin-left:75px;color: black;}
+#update #row4 input{margin-left:75px;color: black;}
+#update #row1, #row2, #row3, #row4, #row5 label{
+	color: rgb(138, 72, 72);margin-bottom:30px;font-weight:bolder;
+	text-transform:capitalize;font-size: larger;
+}
+#update #row1, #row2, #row3, #row4, #row5 {margin-left: 10%;}
+#update input[type="submit"]{
+	border:2px solid rgb(138, 72, 72);border-radius:15px;padding-bottom:10px;width:100px;cursor:pointer;
+    font-weight: bolder;margin-bottom: 30px;background-color:rgba(138, 72, 72, 1);color: white;margin-left: 10%;
+}
